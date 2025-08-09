@@ -421,11 +421,21 @@ function App() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className={`text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r ${darkMode ? 'from-white via-blue-200 to-green-200' : 'from-gray-800 via-blue-600 to-green-600'} bg-clip-text text-transparent leading-tight`}>
             Welcome to Breaking Point 2 Values
-          </h2>
-          <div className={`text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'} mb-6 space-y-2`}>
-            <p><strong>Discord Server:</strong> <a href="https://discord.gg/Ne3NwU5Y" className=\"text-blue-400 hover:text-blue-300 transition-colors" target=\"_blank" rel="noopener noreferrer">https://discord.gg/Ne3NwU5Y</a></p>
-            <p><strong>Last Update:</strong> 8/9/2025</p>
-          </div>
+        <h2>...</h2>
+<div className={`text-lg ${darkMode ? 'text-gray-300' : 'text-gray-700'} mb-6 space-y-2`}>
+  <p>
+    <strong>Discord Server:</strong>
+    <a
+      href="https://discord.gg/Ne3NwU5Y"
+      className="text-blue-400 hover:text-blue-300 transition-colors"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      https://discord.gg/Ne3NwU5Y
+    </a>
+  </p>
+  <p><strong>Last Update:</strong> 8/9/2025</p>
+</div>
         </div>
       </section>
 
